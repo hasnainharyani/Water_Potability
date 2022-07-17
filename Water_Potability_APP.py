@@ -12,7 +12,7 @@ import streamlit as st
 
 # loading the saved models
 
-water_model = pickle.load(open('C:/Users/Hasnain/Documents/Water_Potability/water_test_randomForest_Model.sav', 'rb'))
+water_model = pickle.load(open('water_test_randomForest_Model.sav', 'rb'))
 
 
 
